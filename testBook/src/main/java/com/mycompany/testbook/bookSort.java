@@ -28,7 +28,7 @@ public class bookSort {
     public void bubbleSortByTitle_Descending(Book[] bookRecord){
     for(int i = 0; i < bookRecord.length - 1; i++){
             for(int j = 0; j < bookRecord.length - i - 1; j++){
-                if(bookRecord[j].getTitle().compareToIgnoreCase(bookRecord[j + 1].getTitle()) > 0){
+                if(bookRecord[j].getTitle().compareToIgnoreCase(bookRecord[j + 1].getTitle()) < 0){
                     Book t = bookRecord[j];
                     bookRecord[j] = bookRecord[j + 1];
                     bookRecord[j + 1] = t;
@@ -67,7 +67,7 @@ public class bookSort {
     public void bubbleSortByAuthor_Descending(Book[] bookRecord){
     for(int i = 0; i < bookRecord.length - 1; i++){
             for(int j = 0; j < bookRecord.length - i - 1; j++){
-                if(bookRecord[j].getAuthor().compareToIgnoreCase(bookRecord[j + 1].getAuthor()) > 0){
+                if(bookRecord[j].getAuthor().compareToIgnoreCase(bookRecord[j + 1].getAuthor()) < 0){
                     Book t = bookRecord[j];
                     bookRecord[j] = bookRecord[j + 1];
                     bookRecord[j + 1] = t;
@@ -107,7 +107,7 @@ public class bookSort {
     public void bubbleSortByPublisher_Descending(Book[] bookRecord){
     for(int i = 0; i < bookRecord.length - 1; i++){
             for(int j = 0; j < bookRecord.length - i - 1; j++){
-                if(bookRecord[j].getTitle().compareToIgnoreCase(bookRecord[j + 1].getTitle()) > 0){
+                if(bookRecord[j].getTitle().compareToIgnoreCase(bookRecord[j + 1].getTitle()) < 0){
                     Book t = bookRecord[j];
                     bookRecord[j] = bookRecord[j + 1];
                     bookRecord[j + 1] = t;
@@ -147,7 +147,7 @@ public class bookSort {
     public void bubbleSortByISBN_Descending(Book[] bookRecord){
     for(int i = 0; i < bookRecord.length - 1; i++){
             for(int j = 0; j < bookRecord.length - i - 1; j++){
-                if(bookRecord[j].getISBN().compareToIgnoreCase(bookRecord[j + 1].getISBN()) > 0){
+                if(bookRecord[j].getISBN().compareToIgnoreCase(bookRecord[j + 1].getISBN()) < 0){
                     Book t = bookRecord[j];
                     bookRecord[j] = bookRecord[j + 1];
                     bookRecord[j + 1] = t;
