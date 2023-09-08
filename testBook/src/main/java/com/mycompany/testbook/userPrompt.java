@@ -26,7 +26,7 @@ public class userPrompt {
             System.out.print("Enter your choice: ");
 
             int userChoice = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine(); 
 
             switch (userChoice) {
                 case 1:
@@ -62,7 +62,7 @@ public class userPrompt {
         System.out.println("4. Search by ISBN");
         System.out.print("Enter your choice: ");
         int searchChoice = scanner.nextInt();
-        scanner.nextLine(); // Consume the newline character
+        scanner.nextLine(); 
 
         Book searchedBook = null;
 
@@ -173,7 +173,7 @@ public class userPrompt {
             System.out.println("5. Cancel");
             System.out.print("Enter your choice: ");
             int editChoice = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine();
 
             switch (editChoice) {
                 case 1:
