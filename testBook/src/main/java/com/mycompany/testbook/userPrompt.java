@@ -49,7 +49,7 @@ public class userPrompt {
         System.out.println("4. Search by ISBN");
         System.out.print("Enter your choice: ");
         int searchChoice = scanner.nextInt();
-        scanner.nextLine(); // Consume the newline character
+        scanner.nextLine();
 
         Book searchedBook = null;
 
