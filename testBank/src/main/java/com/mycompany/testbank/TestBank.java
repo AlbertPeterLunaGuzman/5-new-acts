@@ -52,7 +52,6 @@ public class TestBank {
             accountsArrayList.add(account[i]);
         }
         
-        //Remove
         accountsArrayList.remove(1);
         accountsLinkedList.removeFirst();
 
