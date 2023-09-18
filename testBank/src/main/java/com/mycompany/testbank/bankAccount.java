@@ -49,7 +49,7 @@ public class bankAccount {
 
     public Scanner scan(){return new Scanner(System.in);}
     
-    // Getters
+    //Getters
     public String getOwnerName() {return this.ownerName;}
     public double getBalance() {return this.balance;}
     public String getAccountNumber() {return this.accountNumber;}
@@ -86,13 +86,13 @@ public class bankAccount {
         }
     }
     
-    // Check Balance
+    // check Balance
     public double checkBalance() {return this.balance;}
     
-    // Calculate Interest
+    //calculate Interest
     public double calculateInterest() {return this.balance * interestRate;}
     
-    // Calculate Interest over Years
+    // calculate Interest/Years
     public double calculateInterest(int years) {
         double p, r, n, interest;
         p = this.balance; r = interestRate; n = years;
